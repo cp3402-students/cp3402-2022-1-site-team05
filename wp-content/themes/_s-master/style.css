@@ -1,0 +1,84 @@
+:root {
+	--navbg: #08a108;
+	--headerbg: #000000;
+	--sitebg: #414040;
+	--bodyfontcolour: #ffffff;
+	
+}
+
+/* EDIT ME */
+.main-navigation {
+    margin-right: 0;
+	margin-top: 50px;
+    float: right;
+}
+
+.menu-navigation-container li{
+	display: inline;
+	
+	background-color: var(--navbg);
+	margin-right: 5px;
+	margin-left: 0px;	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+
+.site-logo {
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+.site-header {
+    height: auto;
+    width: 100%;
+    
+    min-height: 48px;
+    display: inline-block;
+	background-color: var(--headerbg);
+}
+
+.entry-content {
+    margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.site {
+	background-color: var(--sitebg);
+}
+
+h1 {
+	font-size: 34px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+body {
+	font-size: 18px;
+	color: var(--bodyfontcolour);
+}
+
+.header-banner img{
+
+	clear: left;
+	width: 100%;
+	height: auto;
+}
+
+.site-footer {
+	background-color: var(--headerbg);
+	margin-top: 50px;
+	text-align: center;
+	min-height: 50px;
+}
+
+.site-info {
+	padding-top: 10px;
+}
