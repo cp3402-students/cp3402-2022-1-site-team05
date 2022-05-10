@@ -9,11 +9,18 @@
  * @package _s
  */
 
+
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer" role="contentinfo">
+        <?php if(is_active_sidebar('sidebar-1')) : ?>
+          <div class="widget_area" role="complementary">
+              <?php dynamic_sidebar("sidebar-1")?>
+          </div>
+        <?php endif; ?>
+
 		<div class="site-info">
-			blah blah blah
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

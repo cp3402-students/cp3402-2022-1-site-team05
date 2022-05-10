@@ -60,10 +60,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .site-header {
     height: auto;
     width: 100%;
-    
     min-height: 48px;
     display: inline-block;
-	background-color: var(--headerbg);
+	background-color: white;
 }
 
 .entry-content {
@@ -97,12 +96,15 @@ body {
 }
 
 .site-footer {
-	background-color: var(--headerbg);
+	background-color: grey;
+	padding-top: 10px;
 	margin-top: 50px;
 	text-align: center;
 	min-height: 50px;
 }
 
+
 .site-info {
 	padding-top: 10px;
 }
+
