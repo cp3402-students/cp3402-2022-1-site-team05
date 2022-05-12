@@ -1,7 +1,22 @@
-his page should help a new developer to continue developing your theme. Include relevant information about what features your theme has, files that would need editing, design decisions, colours, etc. You do not need to produce a serious design document or reproduce basic details about WordPress theme development, only what is specific to your theme.
+# Theme
+The starter theme used for this website is [Underscrores](https://underscores.me/)
 
-Download Beans Starter Theme (for customisation)
+#### Theme Features
+Features: **TODO**
 
-Initial commit of Beans WP Starter Theme to: main
+#### Theme layout
+Menu Detail:**TODO**
+Footer Detail:**TODO**
+Sidebar Detail:**TODO**
+Content Detail:**TODO**
+Functions Detail:**TODO*
 
-Push from local folder to github How to Integrate WordPress with GitHub
+#### Theme Design
+Color Detail:   **TODO**
+Design Detail:   **TODO**
+Font Detail:   **TODO**
+
+# LINKS
+[github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+[staging server](http://54.206.45.130/wp-admin/about.php) 
+[Underscrores](https://underscores.me/)

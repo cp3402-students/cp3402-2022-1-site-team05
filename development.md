@@ -1,11 +1,66 @@
-deployment.md – Describe your development and deployment workflow in enough detail that a
-new team member or someone taking over the project could follow to successfully develop theme
-updates locally, then test and deploy them to your staging and live sites. This should include aspects
-such as project management, version control, testing and automation. Do not provide private details
-like passwords.
+# Deployment and development Description
+**TODO: Add description**
 
-Local Development - The team will pull from remote git repo (https://github.com/cp3402-students/cp3402-2022-1-site-team05/) to work on and push changes as neccessary
-Database control - The database is updated from the staging site and dumped as backup when neccessary
-Deloyment to staging site - Staging environment is connecteed to remote repository above. When changes need to be staged, a git pull can be run on the server to update wp-content folder. (Automation to be added later)
-To pull the repro to staging enviroment log in to AWS lightsail -> open terminal for staging instance -> cd to opt/bitnami/wordpress/wp-content$ type -> **INFO needed
+# WorkFlows
+
+#### Adding a new engineerc process
+1.  Add to github 
+2.  Add to Wordpress
+3.  Add to AWS
+4.  Add to Storage
+
+#### Setting up local enviroment
+**TODO: local enviroment details**
+
+#### Pulling the theme files to local enviroment
+1.  Pull theme files from [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git)
+**TODO: Add more detail on local enviroment?**
+
+##### Making changes to The theme and pushing to Github
+1.  Make changes on local enviroment. **TODO: Link to an example local enviroment setup**
+2.  Test and verify on local enviroment.
+3.  Document changes **TODO: Add link to document**
+3.  Commit changes to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+3.  Push to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+5.  Github pushes to staging server automatically **TODO: link to how automation process operates**
+6. Test and verify Documented changes **TODO: Add link to document**
+7. When all documented changes are verified trigger a automated clone to production server **TODO: link to who to trigger a push**
+
+
+#### Github To Staging process
+**TODO Add process detail**
+
+#### Making changes to content pages
+1.  Changes to be made to [staging server](http://54.206.45.130/wp-admin/about.php) 
+2.  Document changes **TODO: Add link to document**
+3.  Test and verify Documented changes **TODO: Add link to document**
+4.  When all documented changes are verified trigger a automated clone to production server **TODO: Add link to document**
+
+#### Documenting changes **TODO: make change control process**
+1.  Describe change made
+2.  Describe testing process (So someone else can test changes you ahve made)
+
+#### Verify Documented changes
+1.  Follow described testing process
+2.  Verify change
+
+#### Staging to Production process
+** TODO Add process**
+
+
+
+**TODO: Add AWS details**
+**TODO: Add AWS Manual Backup details**
+**TODO: Add AWS Auto Backup details**
+**TODO: Add AWS Restore details**
+**TODO: Add AWS automation (Staging to GIT) details**
+**TODO: Add GIT - AWS details**
+**TODO: Add Storage location details**
+
+
+
+# LINKS
+1.  [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+2.  [staging server](http://54.206.45.130/wp-admin/about.php) 
+3.  [Underscrores](https://underscores.me/)
 	
