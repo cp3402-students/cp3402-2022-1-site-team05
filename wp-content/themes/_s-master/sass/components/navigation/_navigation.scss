@@ -1,28 +1,27 @@
 .main-navigation {
-	display: block;
+	display: flex;
+	top: 0;
+	justify-content: end;
 	width: 100%;
+	background-color: $color__navigationBar;
 
 	ul {
 		display: none;
 		list-style: none;
 		margin: 0;
-		padding-left: 0;
+		padding: 0 50px;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
 			position: absolute;
 			top: 100%;
-			left: -999em;
 			z-index: 99999;
 
 			ul {
-				left: -999em;
 				top: 0;
 			}
 
 			li {
-
 				&:hover > ul,
 				&.focus > ul {
 					display: block;
@@ -51,7 +50,7 @@
 
 	li {
 		position: relative;
-
+		padding: $logo_size 10px;
 		&:hover > a,
 		&.focus > a {
 		}
@@ -60,6 +59,7 @@
 	a {
 		display: block;
 		text-decoration: none;
+		color: $color__menu-link;
 	}
 
 	.current_page_item > a,
@@ -76,7 +76,6 @@
 }
 
 @media screen and (min-width: 37.5em) {
-
 	.menu-toggle {
 		display: none;
 	}
@@ -89,7 +88,6 @@
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
-
 	.site-main & {
 		margin: 0 0 1.5em;
 	}
