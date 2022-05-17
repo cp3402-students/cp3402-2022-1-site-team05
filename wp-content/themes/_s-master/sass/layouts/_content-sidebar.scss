@@ -1,10 +1,7 @@
 .site {
 	display: grid;
 	grid-template-columns: auto ($size__site-sidebar);
-	grid-template-areas:
-		"header header"
-		"main sidebar"
-		"footer footer";
+	grid-template-areas: "header header" "main sidebar" "footer footer";
 }
 
 .site-header {

@@ -5,4 +5,10 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-weight: 200;
+}
+
+h1,
+h2 {
+	color: $color__text-heading;
 }
