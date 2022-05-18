@@ -50,7 +50,6 @@
 		</nav><!-- #site-navigation -->
 
 		<div class="header-banner">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/bannerImg1.jpg" alt="<?php bloginfo('name'); ?> logo"/>
 
 		</div>
 	</header><!-- #masthead -->
