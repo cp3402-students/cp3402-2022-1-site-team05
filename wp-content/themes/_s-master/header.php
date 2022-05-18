@@ -26,11 +26,9 @@
 	
 
 	<header id="masthead" class="site-header">
-		<div class="site-logo">
-			<a id="logo" href="<?php echo home_url(); ?>" title="<?php _e('Home', 'bigblank'); ?>" rel="home">
-            </a>
-		</div>
-		
+		<div class="site-branding">
+			<?php the_custom_logo(); ?>
+		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<div class="nav-wrapper">
@@ -47,7 +45,4 @@
 			
 		</nav><!-- #site-navigation -->
 
-		<div class="header-banner">
-
-		</div>
 	</header><!-- #masthead -->
