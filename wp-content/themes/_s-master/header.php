@@ -28,8 +28,6 @@
 	<header id="masthead" class="site-header">
 		<div class="site-logo">
 			<a id="logo" href="<?php echo home_url(); ?>" title="<?php _e('Home', 'bigblank'); ?>" rel="home">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/tjcLogo.jpg" alt="<?php bloginfo('name'); ?> logo"/>
-                <span class="screen-reader-text"><?php bloginfo('name'); ?></span>
             </a>
 		</div>
 		
