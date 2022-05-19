@@ -1,5 +1,5 @@
 # Deployment and development Description
-**TODO: Add description**
+**TODO: Add description - include AWS lightsail info**
 
 # WorkFlows
 
@@ -44,8 +44,33 @@
 1.  Follow described testing process
 2.  Verify change
 
-#### Staging to Production process
-** TODO Add process**
+## Staging to Production process
+
+To migrate the staging server to production server the  [All-in-one WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) plug in is used.
+
+This plugin must be installled and active on both staging and production server.
+
+#### Carry out the following on the staging server
+```sh
+Open the All-in-One WP Migration add on tool 
+Click Export
+Click EXPORT TO
+Click File
+Export will start.
+After export has finished download file - take note of dowload folder
+```
+
+#### Carry out the following on the production server
+```sh
+Open the All-in-One WP Migration add on tool 
+Click Import
+Click IMPORT FROM
+Click File
+Select file location as noted in steps above
+Import will carry out
+Test Site
+```
+
 
 
 
@@ -63,4 +88,5 @@
 1.  [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
 2.  [staging server](http://54.206.45.130/wp-admin/about.php) 
 3.  [Underscrores](https://underscores.me/)
+4.  [All in one WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/)
 	
