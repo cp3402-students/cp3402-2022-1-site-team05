@@ -19,3 +19,12 @@ input[type="submit"] {
 		border-color: $color__border-button-focus;
 	}
 }
+
+.wp-block-button__link {
+	background: $color__CTA;
+	color: $color__background-body;
+}
+
+.wp-block-button__link:hover {
+	background-color: red;
+}
