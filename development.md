@@ -1,5 +1,7 @@
 # Deployment and development Description
-**TODO: Add description - include AWS lightsail info**
+The website is hosted on AWS Lightsale we have a staging server and a production server.
+Local development is pushed to github for colabaration and version control.
+
 
 # WorkFlows
 
@@ -25,7 +27,9 @@
 
 
 #### Github To Staging process
-**TODO Add process detail**
+1.	Download the latest github repro
+2.	Zip up the wp-content folder
+3.	In word press select Apperance -> Themes -> Add New -> Select folder from step 2.
 
 #### Making changes to content pages
 1.  Changes to be made to [staging server](http://54.206.45.130/wp-admin/about.php) 
