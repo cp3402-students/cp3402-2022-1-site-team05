@@ -19,7 +19,11 @@ Once logged in you can access the Wordpress dashboard which has features such as
 - Plugins (Search for new plugins to install or activate installed plugins)
 - **WP Staging** (plugin)
 - Users (list of users with passwords to log into wp-admin)
-- 
+- Tools
+- All-in-One Migration WP migration (used for back up and migrating site to another server)
+- Settings
+- Extendify (pre built templates for use on any page)
+- **Metaslider** (plugin for photo galleries
 
 **how to add new content – as a page or a post?**
 Linkedin Learning provides video tutorials on Wordpress Essential Training to familiarise 
