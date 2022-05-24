@@ -35,7 +35,7 @@ What can each team member contribute to the project?
 Francis Peckover
 Earl Rosas:  Trello Board; Minutes
 Danny Connolly
-Harry Schmidt: Theme Devolopment, Filling content, Photo plugins
+Harry Schmidt: Basic theme devolopment, Filling content, Photo plugins
 (List each team member's name with their currently anticipated role within the team.)
 ???
 
