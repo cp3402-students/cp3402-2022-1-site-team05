@@ -48,6 +48,7 @@ you can add your slideshow to a page by adding a metaslider block and selecting 
 You can export your slideshows by going to metaslider > settings and help > export
 
 **Membership Paid Pro**
+https://www.paidmembershipspro.com/documentation/?utm_source=plugin&utm_medium=pmpro-admin-header&utm_campaign=documentation
 - From Membership tab select dashboard
 - tabs in main window include: Dashboard; Members; Orders; Reports; Settings; Add-ons
 - to Add membership levels: select Settings > levels (fill in text boxes with description and price (recurring payment and length of membership;  Add or edit levels depending on current information
