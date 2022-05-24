@@ -3,30 +3,25 @@
 
 # WorkFlows
 
-#### Adding a new engineerc process
+#### Adding a new engineer process
 1.  Add to github 
 2.  Add to Wordpress
 3.  Add to AWS
 4.  Add to Storage
 
-**TODO: add in AWS details - filezilla - ssh - instance details - backup - auto snapshot**
-
-#### Setting up local enviroment
-**TODO: local enviroment details**
 
 #### Pulling the theme files to local enviroment
 1.  Pull theme files from [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git)
-**TODO: Add more detail on local enviroment?**
 
 ##### Making changes to The theme and pushing to Github
-1.  Make changes on local enviroment. **TODO: Link to an example local enviroment setup**
+1.  Make changes on local enviroment. 
 2.  Test and verify on local enviroment.
-3.  Document changes **TODO: Add link to document**
-3.  Commit changes to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
-3.  Push to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
-5.  Github pushes to staging server automatically **TODO: link to how automation process operates**
-6. Test and verify Documented changes **TODO: Add link to document**
-7. When all documented changes are verified trigger a automated clone to production server **TODO: link to who to trigger a push**
+4.  Commit changes to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+5.  Push to [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
+6.  Github pushes to staging server automatically 
+7.  Add changes to the trello board
+8.  Test Changes
+9.  When all documented changes are verified trigger a clone to production server 
 
 
 #### Github To Staging process
@@ -34,9 +29,9 @@
 
 #### Making changes to content pages
 1.  Changes to be made to [staging server](http://54.206.45.130/wp-admin/about.php) 
-2.  Document changes **TODO: Add link to document**
-3.  Test and verify Documented changes **TODO: Add link to document**
-4.  When all documented changes are verified trigger a automated clone to production server **TODO: Add link to document**
+2.  Add changes to 
+3.  Test and verify Documented changes on the trello board
+4.  When all documented changes are verified trigger a clone to production server.
 
 #### Documenting changes **TODO: make change control process**
 1.  Describe change made
@@ -72,19 +67,9 @@ Select file location as noted in steps above
 Import will carry out
 Test Site
 ```
-
-
-
-
-**TODO: Add AWS details**
-**TODO: Add AWS Manual Backup details**
-**TODO: Add AWS Auto Backup details**
-**TODO: Add AWS Restore details**
-**TODO: Add AWS automation (Staging to GIT) details**
-**TODO: Add GIT - AWS details**
-**TODO: Add Storage location details**
-
-
+##### Hosting service
+1.	AWS Lightsale is used to host both staging and production servers.
+2.	The Production server is set up back up on a daily schedule, 7 back ups in total.
 
 # LINKS
 1.  [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
