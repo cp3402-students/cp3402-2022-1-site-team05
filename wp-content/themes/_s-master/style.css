@@ -705,9 +705,6 @@ textarea {
   color: #e3b862;
   transform: scale(1.3);
 }
-.main-navigation .underline {
-  text-decoration: underline;
-}
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
