@@ -523,11 +523,14 @@ table {
   width: 100%;
 }
 
-.site-logo {
+.custom-logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 999;
+  max-width: 100px;
+  left: 3%;
+}
+
+.site-branding {
+  height: 0;
 }
 
 .header-banner img {
@@ -704,9 +707,6 @@ textarea {
 .main-navigation a:hover {
   color: #e3b862;
   transform: scale(1.3);
-}
-.main-navigation .underline {
-  text-decoration: underline;
 }
 /* Small menu. */
 .menu-toggle,
