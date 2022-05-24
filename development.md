@@ -32,7 +32,7 @@ Local development is pushed to github for colabaration and version control.
 3.	In word press select Apperance -> Themes -> Add New -> Select folder from step 2.
 
 #### Making changes to content pages
-1.  Changes to be made to [staging server](http://54.206.45.130/wp-admin/about.php) 
+1.  Changes to be made to [staging server](http://http:/3.104.223.134/wp-admin/about.php) 
 2.  Add changes to 
 3.  Test and verify Documented changes on the trello board
 4.  When all documented changes are verified trigger a clone to production server.
@@ -77,7 +77,7 @@ Test Site
 
 # LINKS
 1.  [github](https://github.com/cp3402-students/cp3402-2022-1-site-team05.git). 
-2.  [staging server](http://54.206.45.130/wp-admin/about.php) 
+2.  [staging server](http://http://3.104.223.134/wp-admin/about.php) 
 3.  [Underscrores](https://underscores.me/)
 4.  [All in one WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/)
 	
