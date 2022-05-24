@@ -523,11 +523,14 @@ table {
   width: 100%;
 }
 
-.site-logo {
+.custom-logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 999;
+  max-width: 100px;
+  left: 3%;
+}
+
+.site-branding {
+  height: 0;
 }
 
 .header-banner img {
