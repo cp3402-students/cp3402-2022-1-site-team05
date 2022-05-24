@@ -48,6 +48,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -389,7 +390,7 @@ select,
 optgroup,
 textarea {
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -522,11 +523,14 @@ table {
   width: 100%;
 }
 
-.site-logo {
+.custom-logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 999;
+  max-width: 100px;
+  left: 3%;
+}
+
+.site-branding {
+  height: 0;
 }
 
 .header-banner img {
@@ -579,6 +583,15 @@ input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
   border-color: #aaa #bbb #bbb;
+}
+
+.wp-block-button__link {
+  background: #e3b862;
+  color: #131313;
+}
+
+.wp-block-button__link:hover {
+  background-color: blue;
 }
 
 input[type=text],
@@ -760,6 +773,10 @@ textarea {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+.entry-title {
+  display: none;
 }
 
 /* Comments
