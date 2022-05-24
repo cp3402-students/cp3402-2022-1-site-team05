@@ -9,6 +9,8 @@
 3.  Add to AWS
 4.  Add to Storage
 
+**TODO: add in AWS details - filezilla - ssh - instance details - backup - auto snapshot**
+
 #### Setting up local enviroment
 **TODO: local enviroment details**
 
